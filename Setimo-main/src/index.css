@@ -1,0 +1,35 @@
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --font-size-base: 16px;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color:var(--preto);
+
+  --dourado: #D0A731;
+  --branco: #FAF3D9;
+  --vermelho: #A00000;
+  --preto: #211D1A;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.titulo{
+  font-size: calc(var(--font-size-base) * 1.5);
+}
+
+.conteudo {
+  font-size: var(--font-size-base);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,1168 @@
+/*APRESENTAÇÃO*/
+
+.container-Apresentacao{
+  width: 100%;
+}
+
+.imgFundoApre{
+  width: 100%;
+}
+
+.imgApresentacao{
+  width: 100%;
+  position: static;
+  z-index: 0;
+  -webkit-mask-image: linear-gradient(to top, transparent 20%, black 100%);
+}
+
+.cotainer-info {
+  margin-top: -150px;
+  text-align: left;
+}
+
+.cotainer-info h2 { 
+  color: #D0A731;
+  
+}
+
+.sobreSetimo, .revitalizacao, .portifolio{
+  width: 29rem;
+}
+
+.textoInfo{
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.imgCorpoInfo{
+  margin-left: 100px;
+}
+
+.container-convite{
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  background-color: #d0a83125 !important; 
+  backdrop-filter: blur(20px) !important;
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.textoConvite, .btnConvite{
+  display: flex;
+  justify-content: left;
+  margin-left: 30px;
+}
+
+.textoConvite{
+  color: #FAF3D9;
+  margin-bottom: 20px; 
+  margin-top: 40px;
+}
+
+.btnConvite{
+  width: 400px;
+}
+
+.btnPreenchido{
+  background-color: #D0A731 !important;
+  color: #FAF3D9 !important; 
+  margin-right: 15px !important;
+}
+
+.btnVazado {
+  color: #D0A731 !important; 
+  border-color: #D0A731 !important;
+}
+
+.imgSetimo, .imgPortfolio, .imgRevitalizacao{
+  width: 29rem;
+  height: 16rem;
+}
+
+/*LOGIN*/
+
+.container-Login{
+  justify-content: center;
+  display: flex;
+  margin-top:12%;
+  margin-bottom: 10%;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d0a83125 !important; 
+  backdrop-filter: blur(20px) !important;
+  border-radius: 10%;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#D0A731;
+  color:#FAF3D9;
+  width: 500px;
+  height: 500px;
+}
+
+.texto-login input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00000025 !important; 
+  border-radius: 10px;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  color:#faf3d99a; 
+  margin-top: 30px ;
+  padding: 15px;
+  padding-right: 250px;
+  display: flex;
+  border-style: groove;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="nome"],
+input[type="celular"] {
+  width: 410px; 
+  padding: 15px !important;
+}
+
+
+.texto-login p{
+  font-size: 11px;
+  margin-bottom: 40px;
+}
+
+.texto-login h2{
+  margin-bottom: 10%;
+}
+
+/*CADASTRO*/
+
+.container-cadastro{
+  justify-content: center;
+  display: flex;
+  margin-top:12%;
+  margin-bottom: 10%;
+}
+
+.cadastro{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d0a83125 !important; 
+  backdrop-filter: blur(20px) !important;
+  border-radius: 10%;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#D0A731;
+  color:#FAF3D9 !important;
+  width: 570px;
+  height: 700px;
+}
+
+.campos-cadastro input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00000025 !important; 
+  border-radius: 10px;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-style: groove;
+  color:#faf3d99a; 
+  margin-top: 30px ;
+  padding: 15px;
+  display: flex;
+
+}
+
+.campos-cadastro h2{
+  margin-bottom: 10%;
+}
+
+.select-cadastro select{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00000025 !important; 
+  border-radius: 10px;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  color:#b1b1b1a5 !important; 
+  margin-top: 30px ;
+  padding: 15px;
+  padding-right: 310px;
+  display: flex;
+  border-style: groove;
+}
+
+.select-cadastro option{
+  background-color: #211D1A;
+  color: #FAF3D9;
+}
+
+ .select-plano{
+  margin-bottom: 50px;
+  padding-right: 330px !important; 
+} 
+
+/*PAGAMENTO*/
+
+.containerPagamento{
+  justify-content: center;
+  display: flex;
+  margin-top:12%;
+  margin-bottom: 10%;
+}
+
+.pagamento{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d0a83125 !important; 
+  backdrop-filter: blur(20px) !important;
+  border-radius: 10%;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#D0A731;
+  color:#FAF3D9 !important;
+  width: 570px;
+  height: 700px;
+}
+
+.tituloPagamento{
+  font-size: 35px;
+}
+
+.btnPagamento{
+  margin-top: 3%;
+  display: flex;
+  justify-content: left;
+  margin-left: 30px;
+}
+
+.bandeiraCartao{
+  width: 200px;
+}
+
+.campos-pagamento input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00000025 !important; 
+  border-radius: 10px;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-style: groove;
+  color:#faf3d99a; 
+  margin-bottom: 30px ;
+  padding: 15px;
+  display: flex;
+}
+
+.tipoPagamentoCOuD{
+  color: #FAF3D9 !important;
+  display: inline;
+}
+
+.custom-radio .MuiSvgIcon-root {
+  color: #D0A731; /* cor quando não selecionado */
+}
+
+/* PERFIL */
+
+.ftPerfil{
+  background-color: #FAF3D9;
+  width: 200px;
+  margin-right: 25px;
+  height: 250px;
+}
+
+.perfil{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+
+}
+
+.texto-perfil{
+  font-size: 25px;
+}
+
+.userName{
+  font-size: 35px;
+}
+
+.container-userPlano{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.userPlano{
+  justify-content: space-between;
+  display: flex;
+  background-color: #d0a83125 !important; 
+  backdrop-filter: blur(20px) !important;
+  width: 874px;
+  border-radius: 10px;
+}
+
+.textoPlano h1{
+  font-size: 30px;
+  color: #D0A731;
+}
+
+.textoPlano h5{
+  margin-bottom: 15px;
+}
+
+.textoPlano{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.setUser, .setPortUSer{
+  margin-right: 20px;
+  width: 21px;
+  margin-top: 75%;
+  display: flex;
+}
+
+.userPortfolio, .userFavorito{
+  justify-content: space-between;
+  display: flex;
+  width: 874px;
+}
+
+.sliderFav, .sledePort {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.userPortfolio h1, .userFavorito h1{
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.Portfilmes, .Favfilmes{
+  flex-direction: column;
+  width: 2000px;
+  overflow-x: auto; 
+  overflow: hidden;
+  padding-left: 1%;
+  padding-right: 2%;
+  color: #D0A731;
+}
+
+.conteudoPort, .conteudoFav{
+  justify-content: space-between;
+  display: flex;
+  background-color: #d0a83125 !important; 
+  backdrop-filter: blur(20px) !important;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  height: 250px;
+}
+
+.container-userPortfolio, .container-userFavorito{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/*TIME*/
+
+.primeira-fileira{
+  align-items: center;
+  display: flex; 
+  justify-content: space-around;
+  margin-bottom: 12%;
+}
+
+.foto-representando{
+  border-radius: 10%;
+}
+
+.segunda-fileira{
+  align-items: center;
+  display: flex; 
+  justify-content: space-around;
+  margin-bottom: 12%;
+}
+
+.terceira-fileira{
+  align-items: center;
+  display: flex; 
+  justify-content: space-around;
+  margin-bottom: 12%;
+  margin-right: 50%;
+}
+
+.Grupo-Representantes h2{
+  color:#D0A731;
+}
+
+.universidade{
+  margin-top: 1px;
+  margin-bottom: 4%;
+}
+
+/*PÁGINA ERRO*/
+
+.pag_Erro h1 {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  margin-top: 330px;
+  height: 300px;
+  color:#FAF3D9;
+}
+
+.tamanho-fonte{
+  position: fixed;
+  top: 80%;
+  left: 91%;
+  width: 35%;  
+}
+
+.tamanho-fonte img{
+  width: 35%;
+}
+
+/* HOME */
+
+.filmeInicioHome{
+  justify-content: space-between;
+  display: flex;
+  backdrop-filter: blur(10%) !important;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 35%; /*se for pra deixar a imagem do filme embaixo da navbar, tirar o height e o paddingtop*/
+  padding-top: 7%;
+}
+
+.filmeInicioHome img {
+  height: 10%;
+}
+
+.filmesHome{
+  justify-content: space-between;
+  display: flex;
+  background-color: #d0a83125 !important; 
+  backdrop-filter: blur(20px) !important;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  height: 250px;
+  
+}
+
+.filmesHome h2{
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 1%;
+}
+
+.rolagemFilmes{
+  height: 140px;
+  margin-left: 20px;
+  margin-top: 15px;
+  display: flex;
+  overflow-x: auto; 
+  width: 100%;
+}
+
+.Portfilme{
+  width: 235px;
+  height: 130;
+  margin-right: 10px;
+}
+
+.conteudoFilmes{
+  flex-direction: column;
+  width: 2000px;
+  overflow-x: auto; 
+  overflow: hidden;
+  padding-left: 1%;
+  padding-right: 2%;
+}
+
+.Favoritos{
+  height: 125px;
+  margin-left: 20px;
+  margin-top: 15px;
+  display: flex;
+  overflow-x: auto; 
+}
+
+.container-filmesHome{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.imgFilmeHome{
+  width: 100%;
+  position: static;
+  z-index: 0;
+  -webkit-mask-image: linear-gradient(to top, transparent 20%, black 100%);
+}
+
+.Portfilme {
+  border: 2px solid transparent; 
+  transition: border-color 0.3s; 
+}
+
+.Portfilme:hover {
+  border-color:#FAF3D9; 
+}
+
+.container-filme {
+  padding: 0;
+  margin: 0;
+}
+
+.filmesHome {
+  padding: 0; 
+}
+
+.slider {
+  margin-left: auto;
+}
+
+.carousel-item {
+  padding: 0 10px; 
+  margin: 0; 
+}
+
+.Portfilme  {
+  width: 100%; 
+  border-radius: 10px; 
+}
+
+
+.slick-prev {
+  left: -12px !important;
+}
+
+/*ASSISTIR FILME*/ 
+
+.btnVoltarHome{
+  display: flex;
+  align-items: center;
+  margin-top: 8%;
+  margin-left: 4%;
+}
+
+.btnVoltarHome h1{
+  color: #D0A731;
+  font-size: 35px;
+}
+
+.filme{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  padding-right: 5%;
+  margin-right: 2%;
+  padding-left: 5%;
+}
+
+.imgFilme{
+  background-color: #FAF3D9;
+  width: 670px;
+  height: 450px;
+  margin-top: 8% !important;
+}
+
+.nomeDoFilme{
+  color: #D0A731;
+  font-size: 50px;
+}
+
+.texto-filme{
+  font-size: 25px;
+  padding-left: 5%;
+  margin-left: 20px;
+}
+
+.texto-filme p{
+  font-size: 18px;
+}
+
+.tituloTela{
+  padding-bottom: 1%;
+  padding-top: 8%;
+  padding-left: 5%;
+  font-size: 35px;
+  color: #D0A731;
+}
+
+.btnVazadoTrailer {
+  color: #D0A731 !important; 
+  border-color: #D0A731 !important;
+  padding-bottom: 10%;
+  width: 30%; 
+  margin-top: 3% !important;
+  border-radius: 7% !important;
+}
+
+.sinopse{
+  font-size: 18px !important;
+}
+
+.btnPreenchidoAssistir{
+  background-color: #D0A731 !important;
+  color: #FAF3D9 !important; 
+  margin-right: 15px !important;
+  margin-top: 7% !important;
+  width: 25%;
+}
+
+.setaTrailer{
+  margin-right: 20px;
+  width: 21px;
+  transform: rotate(270deg);
+  margin-left: 1%;
+  display: inline;
+  }
+
+.container-assistir {
+  padding: 20px;
+}
+   
+.btnVoltarHome {
+  display: flex;
+  align-items: center;
+}
+  
+.btnVoltarHome img {
+  margin-right: 10px;
+}
+  
+.filme {
+  display: flex;
+  margin-top: 20px;
+}
+  
+.ft-user .imgFilme img {
+  width: 670px;
+  height: 450px;
+}
+  
+.video-container {
+  margin-top: 20px;
+  text-align: center;
+}
+  
+.video-container iframe {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+/* PORTFOLIO */
+
+.containerPortfolio{
+  margin-top: 8%;
+  width: 1070px;
+  padding-bottom: 15%;
+}
+
+.portfolio{
+  display: flex;
+  justify-content: center;
+}
+
+.portfolioLine1 div img{
+  margin-left: 3%;
+}
+
+.portfolioLine2 img{
+  margin-left: 2.2%;
+}
+
+.portfolioLine2{
+  width: 1070px;
+  position: relative;
+  right: 2%;
+}
+
+.titleVoltar{
+  display: flex;
+  align-items: center;
+}
+
+.titleVoltar img{
+  height: 35px;
+}
+
+.containerPortfolio div{
+  margin-top: 3%;
+}
+
+.containerPortfolio h1{
+  color: #D0A731;
+  font-size: 35px;
+}
+
+.addFilme{
+  width: 235px;
+  height: 130px;
+  border: solid 1px #FAF3D9;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addFilme img{
+  width: 70px;
+}
+
+.portfolioLine1{
+  display: flex;
+}
+
+.line1Port{
+  width: 790px;
+}
+
+/*PLANO*/
+
+.plano {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.container-Plano {
+  width: 80%;
+  max-width: 1070px;
+  margin-top: 8%;
+}
+
+.btnVoltar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.btnVoltar img {
+  margin-right: 10px;
+}
+
+.btnVoltar h1 {
+  color: #D0A731;
+  font-size: 35px;
+}
+
+.plano-card {
+  background-color: #d0a83125 !important;
+  backdrop-filter: blur(20px) !important;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.plano-card h2 {
+  color: #F1C40F;
+  margin-bottom: 1.5%;
+}
+
+.plano-card ul {
+  padding-left: 20px;
+}
+
+.plano-card ul li {
+  margin-bottom: 8px;
+}
+
+.valorPlano {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 82%;
+}
+
+.valorPlano h3 {
+  font-weight: bold;
+  margin-left: 20%;
+}
+
+.btnPreenchido {
+  background-color: #F1C40F !important;
+  color: #000 !important;
+  border-radius: 5px !important;
+}
+
+.btnPreenchido:hover {
+  background-color: #9c780d !important;
+}
+
+/*ALUGAR FILME*/
+
+.filmeAlugar{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  padding-right: 5%;
+  margin-right: 2%;
+  padding-left: 5%;
+}
+
+.imgFilmeAlugar{
+  background-color: #FAF3D9;
+  width: 670px;
+  height: 450px;
+}
+
+.nomeDoFilmeAlugado{
+  color: #D0A731;
+  font-size: 50px;
+}
+
+.texto-filme-alugar{
+  font-size: 25px;
+  padding-left: 5%;
+}
+
+.texto-filme-alugar p{
+  font-size: 25px;
+}
+
+.tituloAlugar{
+  padding-bottom: 1%;
+  padding-top: 14%;
+  padding-left: 5%;
+  font-size: 35px;
+  color: #D0A731;
+}
+
+.btnVazadoTrailerAlugar {
+  color: #D0A731 !important; 
+  border-color: #D0A731 !important;
+  padding-bottom: 10%;
+  width: 30%; 
+  margin-top: 5% !important;
+  border-radius: 7% !important;
+}
+
+.btnVazadoComprarPlano{
+  color: #D0A731 !important; 
+  border-color: #D0A731 !important;
+  padding-bottom: 10%;
+  width: 40%; 
+  margin-right: 15px !important;
+  margin-top: 10% !important;
+  border-radius: 7% !important;
+}
+
+.tituloTrailerAlugar{
+  margin-right: 10%;
+
+}
+
+.sinopseAlugar{
+  font-size: 18px !important;
+}
+
+.btnPreenchidoAlugar{
+  background-color: #D0A731 !important;
+  color: #FAF3D9 !important; 
+  margin-right: 15px !important;
+  margin-top: 10% !important;
+  width: 25%;
+}
+
+.setaTrailerAlugar{
+  margin-right: 20px;
+  width: 21px;
+  transform: rotate(270deg);
+  margin-left: 1%;
+  display: inline;
+  }
+
+.imgSetaBtnAlugar{
+  margin-bottom: 5%;
+  margin-right: 15%;
+}
+
+.fe_arrow-up.png{
+  position: relative;
+  left: 5%; 
+  top: 5%;  
+}
+
+/*CRIAR FILME*/
+
+.fe_arrow-up.png{
+  position: relative;
+  left: 5%; 
+  top: 5%;  
+}
+
+.imgSetaBtnCriar{
+  margin-top: 8%;
+  margin-left: 10%;
+}
+
+.tituloCriar{
+  padding-right: 2%;
+  font-size: 35px;
+  color: #D0A731;
+}
+
+.addCriarFilme{
+  width: 450px;
+  height: 300px;
+  border: solid 1px #FAF3D9;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.addCriarFilme img{
+  width: 70px;
+}
+
+.container-categoria{
+  display: flex;
+}
+
+.select-categoria select{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d0a8315a !important; 
+  border-radius: 10px;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  color: #8d8888 !important; 
+  margin-top: 30px ;
+  padding: 15px;
+  padding-right: 310px;
+  display: flex;
+  border-style: groove;
+  width:505px;
+}
+
+.select-categoria option{
+  background-color: #211D1A;
+  color: #FAF3D9;
+}
+
+.container-visibilidade{
+  display: flex;
+  margin-bottom: 10%;
+}
+
+.select-visibilidade select{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d0a8315a !important; 
+  border-radius: 10px;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  color: #8d8888 !important; 
+  margin-top: 30px ;
+  padding: 15px;
+  padding-right: 310px;
+  display: flex;
+  border-style: groove;
+  width:505px;
+}
+
+.select-visibilidade option{
+  background-color: #211D1A;
+  color: #FAF3D9;
+}
+
+.container-informacoes input{
+  width: 505px;
+  background-color: #d0a8315a !important; 
+  border-radius: 10px;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-style: groove;
+}
+
+.container-informacoes{
+  position: relative;
+  left: 5%;
+  margin-top: 3%;
+}
+
+.container-criar-filme{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.btnConcluirPreenchido{
+  background-color: #D0A731 !important;
+  color: #FAF3D9 !important; 
+  margin-left: 45% !important;
+}
+
+.container-subir-filme input{
+  width: 950px;
+  height: 50px;
+  border-radius: 10px;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  margin-bottom: 5%;
+  margin-right: 90px;
+}
+
+.container-subir-filme{
+  position: relative;
+  margin-top:5%;
+  left: 22%;
+  width: 950px;
+}
+
+@media (max-width: 1180px) {
+  .container-convite{
+    top:30%;
+  }
+
+  .textoInfo{
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+
+@media (max-width: 1048px) {
+  .container-convite{
+    top:20%;
+  }
+
+  .textoInfo{
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .imgSetimo, .imgPortfolio, .imgRevitalizacao{
+    width: 26rem;
+    height: 13rem;
+  }
+   
+}
+
+@media (max-width: 960px) {
+
+  .imgSetimo{
+    margin-top: 3rem;
+  }
+  .imgPortfolio, .imgRevitalizacao{
+    margin-top: 5rem;
+  }
+  
+}
+
+@media (max-width: 840px) {
+
+  .imgSetimo{
+    margin-top: 3rem;
+  }
+  .imgPortfolio, .imgRevitalizacao{
+    margin-top: 5rem;
+  }
+  .textoInfo{
+    margin-top: 10%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgCorpoInfo{
+    margin-left: 0px;
+  }
+
+  .container-convite{
+    top: 20%;
+    left: 10%;
+    width: 25rem;
+    height: 12rem;
+  }
+  
+  .textoConvite, .btnConvite{
+    display: flex;
+    justify-content: left;
+    margin-left: 30px;
+  }
+
+  .textoConvite h1{
+    font-size: 25px;
+  }  
+}
+
+@media (max-width: 700px) {
+  .imgSetimo{
+    margin-top: 3rem;
+  }
+  .imgPortfolio, .imgRevitalizacao{
+    margin-top: 5rem;
+  }
+  .textoInfo{
+    margin-top: 20%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgCorpoInfo{
+    margin-left: 0px;
+  }
+
+  .container-convite{
+    top: 12%;
+    left: 10%;
+    height: 10rem;
+  }
+
+
+  .textoConvite h1{
+    font-size: 1.25rem;
+  }
+
+  .btnPreenchido{
+    width: 0.5rem;
+    font-size: 0.7rem !important;
+  }
+  .btnVazado{
+    font-size: 0.7rem !important;
+  }  
+}
+
+
+
+

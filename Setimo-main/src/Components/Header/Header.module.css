@@ -1,0 +1,18 @@
+.header {
+        background-color: #211D1A10 !important; 
+        backdrop-filter: blur(10px) !important;
+        box-shadow: 0% !important;
+        position: absolute !important;
+        top: 0 !important;
+        width: 100%;
+        z-index: 1 !important; 
+        color: #FAF3D9 !important; 
+        height: 80px !important;
+  }
+
+.logo{
+    margin-left: 20px !important ;
+}
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+  background-color: aqua;
+}
